@@ -1,0 +1,11 @@
+name: Briefing
+
+on:
+  workflow_dispatch:
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hub online check
+        run: echo "briefing hub online"
