@@ -5,8 +5,8 @@ Home for the quarterly Apple earnings briefing review — replacing the old ad-h
 ## Contents
 
 - `digest.md` — the quarterly digest: fact-check verdicts, note index, schedule conversions, and the digest header date.
-- `briefing_extracts.pdf` — appendix: the "Figure 1" pages extracted from the research note.
 - `.github/workflows/briefing.yml` — manually triggered workflow (echoes "briefing hub online") as a hub health check.
+- `briefing_extracts.pdf` — appendix: the "Figure 1" pages extracted from the research note. This artifact is produced in the analyst workspace alongside the source note; only the digest is committed to the repo.
 
 ## How to run the briefing check
 
